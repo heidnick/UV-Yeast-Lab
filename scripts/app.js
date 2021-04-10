@@ -64,7 +64,7 @@ Vue.component('image-component', {
   template: `
   <div>
     <div v-if="selected == 0">
-      <img class="image" src="./images/td.JPG" alt="Thymine Dimer">
+      <img class="image" src="./images/td.png" alt="Thymine Dimer">
     </div>
     <div v-else-if="selected == 1">
       <img class="image" src="./images/uvrad.png" alt="Cancer Cell">
@@ -94,7 +94,7 @@ Vue.component('image-component', {
     <div v-else-if="selected == 5">
       <div class="row">
         <div class="col-md-6">
-          <img class="image" src="./images/grid_analysis.JPG" alt="Grid Analysis">
+          <img class="image" src="./images/grid_analysis.png" alt="Grid Analysis">
         </div>
         <div class="col-md-3">
           <img class="image" src="./images/NeutrogenalotionSPF852010Xs.jpg" alt="Neutrogena 85">
